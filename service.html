@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna Tech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <!------------------------------------ Font Awesome CDN ------------------------------------>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <style>
+
+    .hea{
+    color: #28207e;
+    letter-spacing: 1px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.service p{
+    display: block;
+    font-size: 20px;
+    color: #757575;
+    margin: 30px 70px 0px 80px ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    grid-gap: 30px;
+    grid-auto-rows: minmax(350px,auto);
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+ .img2{
+    width: 100%;
+    height: 150px;
+    border-radius: 30px 8px 8px 30px;
+}
+.h2{
+    padding-top: 30px;
+    font-size: 1.5rem;
+    color: #28207e;
+}
+.h2:hover{
+    color: #757575;
+}
+.h4{
+    font-size: 1rem;
+    color: black;
+    padding-top: 20px;
+}
+.product{
+    background-color: #d4af3711;
+    /* border: 3px black ; */
+    border-radius: 30px;
+   
+}
+#develop{
+    margin: 0px 4px 15px 15px;
+}
+
+.product h2{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+   
+}
+.product h4{
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media (max-width:1200px){
+    .container{
+        grid-template-columns: repeat(1,80%);
+    }
+}</style>
+</head>
+<body>
+    <!-- navigation pannnel -->
+    <header id="navigation-pannel">
+        <h1>
+        Apna Tech
+        </h1> 
+        <div id="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Service</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="contact.html">Contact</a>
+        </div>   
+    </header>
+    <div style="height: 110px; width:100%">
+    </div>
+    <div class="service">
+        <div class="hea">SERVICES</div>
+
+    <P>We offer custom software development,mobile and web application development,
+         and IT consulting services tailored to meet diverse business needs</P>
+    </div>
+   
+    <div class="container">
+        <div class="product">
+            <img src="web design.jpg" alt="" class="img2"> 
+            <p class="h2">Web Design</p>
+            <p class="h4">Designing intuitive and visually engaging websites that enhance user experience.</p>
+        </div>
+        <div class="product">
+            <img src="web.jpg" alt="" class="img2" > 
+            <p class="h2">Web Development</p>
+            <p class="h4">Building robust and scalable websites and applications to meet client needs.</p>
+
+
+        </div>
+        <div class="product">
+            <img src="des.jpg" alt=""  class="img2"> 
+            <p class="h2">App Design</p>
+            <p class="h4">Creating intuitive and visually appealing mobile apps for seamless user experiences.</p>
+
+        </div>
+        <div class="product">
+            
+            <img src="app.jpg" alt="" class="img2" > 
+            <p class="h2">App Development</p>
+            <p class="h4">Developing feature-rich mobile applications tailored to meet user needs and business goals.</p>
+
+        </div>
+      
+    </div>
+    <!------------------------------------- footer start ------------------------------------->
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h2>Apna Tech</h2><br>
+                <p>
+                    we specialize in developing innovative software solutions that drive efficiency and growth for businesses of all sizes.
+                     Our diverse range of products, from intuitive applications to robust enterprise systems, is designed to meet the unique needs of our clients
+                </p>
+            </div>
+            <div class="col">
+                <h3>Office <div class="underline"><span></span></div></h3>
+                <p>MANUU</p>
+                <p>Gachibowli, Hyderabad</p>
+                <p>Telangana, PIN 500032, India</p>
+                <p class="email">apnatech@gmail.com</p>
+                <h4>+910987654321</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="#">Home</li></a>
+                    <li><a href="#">Services</li></a>
+                    <li><a href="#">About Us</li></a>
+                    <li><a href="#">Features</li></a>
+                    <li><a href="#">Contacts</li></a>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>NewsLetter <div class="underline"><span></span></div></h3>
+                <div class="news">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="submit"><i class=" far fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+                </div>
+                <div class="social">
+                    <a href="https://www.instagram.com/ifrazz_01?igsh=eTZsOHZ1OWpqZTdn"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/syedifraz.hussain.1?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/Ifrazz01?t=fQ3EjVWZ2nusc5eMSXoIhw&s=08"><i class="fa-brands fa-twitter"></i></a>
+                <a href="http://t.me/ifrazz_01"><i class="far fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Apna Tech 2024</p>
+    </footer>
+    
+    </body>
+    </html>
